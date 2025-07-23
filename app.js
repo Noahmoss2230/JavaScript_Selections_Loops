@@ -1,6 +1,6 @@
 // Exercise 1 Section
 
-for (let i = 0; i < 100; i++){
+for (let i = 0; i <= 100; i++){
     if (i % 2 == 0){
         continue;
     } else {
@@ -28,7 +28,7 @@ for (let i = 1; i < 100; i++){
 
 // Exercise 3 Section
 let i = 0;
-while (i < 100) {
+while (i <= 100) {
     if (i % 2 !== 0) {
         console.log(i);
     }
@@ -41,11 +41,11 @@ do {
         console.log(j);
     }
     j++;
-} while (j < 100)
+} while (j <= 100)
 
 
 let k = 1;
-while (k < 100) {
+while (k <= 100) {
         console.log(k);
     
         if (k % 3 == 0 && k % 5 == 0){
